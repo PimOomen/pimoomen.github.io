@@ -53,7 +53,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Personalized treatment for heart failure
+        title: Virtual heart failure treatment planning
         # link: 
         # link_text: Project Website
         additional_links:
@@ -87,7 +87,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             I work in the departments of Biomedical Engineering and Cardiovascular Medicine, where I lead a multidisciplinary team of engineers and clinicians to
             improve the outcome of cardiac resynchronization therapy. Besides my research responsibilities, I am priviliged to mentor several talented 
-            undergraduate and graduate students, and I am a co-instructor of a biomechanics class.
+            undergraduate and graduate students, am a co-instructor of a biomechanics class, and am a founding board member of the Postdoctoral Association.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
