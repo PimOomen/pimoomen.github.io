@@ -100,7 +100,7 @@ content:
           I received my theoretical and practical training in all aspects of biomedical engineering at the Eindhoven University of Technology, in the Netherlands.
           During my MSc and PhD degrees, I specialized in experimental and computational cardiovascular biomechanics and tissue engineering, resulting in 6 journal publications and a thesis  titled 'Growth and remodeling of native and engineered cardiovascular tissues'.
 
-          As part of my training, I gained valuable educational and research experience at universities across the world
+          As part of my training, I gained valuable educational and research experience at universities across the world:
           - **Stanford University** / Department of Mechanical Engineering (Visiting student researcher, 2016)
           - **University of Texas at Austin** / Center for Cardiovascular Modeling & Simulation (Graduate research assistant, 2012)
           - **Queen Mary, University of London** / Biomedical Engineering (Erasmus Scholar, 2010)
@@ -114,10 +114,10 @@ content:
       - Playing board games
 
       Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      ![Playing music is fun](images/barnloftmusic.jpg)
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
