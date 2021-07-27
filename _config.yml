@@ -60,7 +60,7 @@ content:
           - title:  CardioGrowth Code
             icon: fab fa-github
             url: https://PimOomen.github.io/CardioGrowth/
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          # - title:  Github page for project
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
@@ -72,6 +72,27 @@ content:
           After all, every individual is unique.
           In this projects, I am working closely with cardiologists to improve and develop personalized heart failure therapies by developing fast computer models 
           to predict how a patient's heart changes in size and shape after a certain treatment strategy.
+      - layout: top-middle
+        title: Heart valve tissue engineering / ImaValve
+        # link: 
+        # link_text: Project Website
+        # additional_links:
+          # - title:  CardioGrowth Code
+            # icon: fab fa-youtube
+             url: https://www.youtube.com/watch?v=TWJ7lyZjC3U
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Creating heart valve replacements that last a lifetime
+        description: | # this will include new lines to allow paragraphs
+          Over 300,000 heart valve replacement surgeries are performed worldwide each year. Current treatments are proven game-changers for adults, 
+          yet children with born heart valve defects have limited options. Tissue engineering has the potential to create living heart valve replacements
+          that last for a lifetime, and grow with the (young) patients. In order to create these game-changing prosthetic devices, we first need to understand
+          the functioning of the native valves that are to be replaced.
+          In this project, I studied the changes in human heart valve structure and mechanics throughout their lifetime, 
+          and unraveled how these drive growth and remodeling. Next, we developed a bioreactor setup to test of we can establish similar growth and remodeling
+          pathways in tissue-engineered valves.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
