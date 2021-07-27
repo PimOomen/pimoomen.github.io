@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Pim Oomen
+name: Pim Oomen, PhD
 title: Cardiac Biomechanician
 email: pim@virginia.edu
 # website: 
@@ -84,7 +84,7 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          Creating heart valve replacements that last a lifetime
+          Seducing the heart to repair itself
         description: | # this will include new lines to allow paragraphs
           Over 300,000 heart valve replacement surgeries are performed worldwide each year. Current treatments are proven game-changers for adults, 
           yet children with born heart valve defects have limited options. Tissue engineering has the potential to create living heart valve replacements
