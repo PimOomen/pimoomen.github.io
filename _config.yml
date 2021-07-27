@@ -53,7 +53,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Heart failure treatment
+        title: 
         # link: 
         # link_text: Project Website
         additional_links:
@@ -66,7 +66,12 @@ content:
         quote: >
           When engineers and clinicians work together, everyone benefits.
         description: | # this will include new lines to allow paragraphs
-          The heart beats over 2 billion times during a human life to pump blood around the body, however this essential function can be cut short by dyssynchronous heart failure. Cardiac Resynchronization Therapy (CRT) has emerged as a potentially effective therapy to reverse this deadly disease and can be personalized for each patient, yet there are far too many options for a doctor to test during surgery. Therefore, the goal of this project is to develop a computer model to predict and improve the outcome of personalized CRT, thus potentially improving the success rate of CRT and treating heart failure in more patients.
+          The heart beats over 2 billion times during a human life to pump blood around the body. 
+          Yet, this essential function can be cut short by diseases such as valve disease and high blood pressure. These diseases lead to changes in size and shape of the heart, ultimately resulting in heart failure.
+          While many excellent treatments are available to patients nowadays, it comes as no surprise that these therapies could lead to very different outcomes when applied to different patients.
+          After all, every individual is unique.
+          In this projects, I am working closely with cardiologists to improve and develop personalized heart failure therapies by developing fast computer models 
+          to predict how a patient's heart changes in size and shape after a certain treatment strategy.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
