@@ -109,13 +109,13 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
       Alongside my professional interests, you can find me:
+      - Riding my bike(s)
       - Bikepacking
       - Listing/playing music
       - Playing board games
+      - Hanging out with my cats
 
-      Look at this cool image  
-      ![Playing music is fun](images/barnloftmusic.jpg){: style="float: left"}
-      Test test text
+      ![Playing music is fun](images/barnloftmusic.jpg)
 
 # Footer
 footer_show_references: false
