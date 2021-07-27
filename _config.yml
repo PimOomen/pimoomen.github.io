@@ -114,7 +114,8 @@ content:
       - Playing board games
 
       Look at this cool image  
-      ![Playing music is fun](images/barnloftmusic.jpg)
+      ![Playing music is fun](images/barnloftmusic.jpg){: style="float: left"}
+      Test test text
 
 # Footer
 footer_show_references: false
