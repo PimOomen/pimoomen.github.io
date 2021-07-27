@@ -53,7 +53,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: 
+        title: Personalized treatment for heart failure
         # link: 
         # link_text: Project Website
         additional_links:
@@ -91,13 +91,19 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Eindhoven University of Tecchnology
+        title: Eindhoven University of Technology
         caption: 2008 - 2018
         sub_title: BSc + MSc + PhD in Biomedical Engineering
         quote: >
-          
+          Mens agitat molem (The mind brings matter into motion)
         description: | # this will include new lines to allow paragraphs
-          
+          I received my thereoetic and practical training in all aspects of biomedical engineering in one of the Netherlands' top institutes on science and technology.
+          During my MSc and PhD degrees, I specialized in cardiovascular biomechanics and tissue engineering, resulting in 6 journal publications and a thesis  titled 'Growth and remodeling of native and engineered cardiovascular tissues'.
+
+          As part of my training, I gained valuable educational and research experience at universities across the world
+          - Stanford University / Department of Mechanical Engineering (Visiting student researcher)
+          - University of Texas at Austin / Center for Cardiovascular Modeling & Simulation (graduate research assistant)
+          - Queen Mary, University of London / Biomedical Engineering (Erasmus Scholar)
 
   - title: A Little More About Me
     layout: text
