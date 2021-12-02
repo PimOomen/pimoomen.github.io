@@ -53,6 +53,7 @@ skills-list:
     - Python
     - MySQL - MongoDB    
     - Git    
+![image-title-here](assets/images/profile.jpg){:class="img-responsive"}
 
 # do you want to display a projects section? true or false
 projects: true
