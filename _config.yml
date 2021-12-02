@@ -1,156 +1,107 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Content configuration version
-version: 2
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+theme: jekyll-theme-so-simple
+# remote_theme: mmistakes/so-simple-theme
+skin: "/assets/css/skins/default.css"
+locale: en-US
+title: "My Awesome Site"
+description: "It really is the best."
+baseurl: # the subpath of your site, e.g. "/blog"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+logo: # path of site logo, e.g. "/images/logo.png"
+date_format: "%B %-d, %Y"
+read_time: # reading time estimates, e.g. true
+words_per_minute: # 200
+mathjax:
+  enable: # MathJax equations, e.g. true, false (default)
+  combo:  # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  tags:  # "none", "ams" (default), "all"
+google_fonts:
+  - name: "Source Sans Pro"
+    weights: "400,400i,700,700i"
+  - name: "Lora"
+    weights: "400,400i,700,700i"
+google_analytics: # Google Analytics id, e.g. "UA-NNNNNNNN-N"
+disqus:
+  shortname: # Disqus shortname, e.g. "my_disqus_shortname"
+twitter:
+  username: # site's Twitter username, e.g. "mmistakes"
 
-# Personal info
-name: Pim Oomen, PhD
-title: Cardiac Biomechanician
-email: pim@virginia.edu
-# website: 
-
-# Dark Mode (true/false/never)
-darkmode: false
-
-# Social links
-twitter_username: pim_oomen
-github_username:  PimOomen
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-instagram_username: pimjoomen
-linkedin_username: pimoomen90
-# xing_username: jekyll
-# pinterest_username: jekyll
-#youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-#vadditional_links:
-#- title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Pim and I am a biomedical engineer specializing in cardiac biomechanics. As well as improving patient healthcare through personalized therapies I am equally passionate about training a new generation of diverse engineers to solve medical problems for years to come. I am currently a postdoctoral researcher at the University of Virginia.
-
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Virtual heart failure treatment planning
-        # link: 
-        # link_text: Project Website
-        additional_links:
-          - title:  CardioGrowth Code
-            icon: fab fa-github
-            url: https://PimOomen.github.io/CardioGrowth/
-          # - title:  Github page for project
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          When engineers and clinicians work together, everyone benefits.
-        description: | # this will include new lines to allow paragraphs
-          The heart beats over 2 billion times during a human life to pump blood around the body. 
-          Yet, this essential function can be cut short by diseases such as valve disease and high blood pressure. These diseases lead to changes in size and shape of the heart, ultimately resulting in heart failure.
-          While many excellent treatments are available to patients nowadays, it comes as no surprise that these therapies could lead to very different outcomes when applied to different patients.
-          After all, every individual is unique.
-          In this projects, I am working closely with cardiologists to improve and develop personalized heart failure therapies by developing fast computer models 
-          to predict how a patient's heart changes in size and shape after a certain treatment strategy.
-      - layout: top-middle
-        title: Heart valve tissue engineering / ImaValve
-        # link: 
-        # link_text: Project Website
-        additional_links:
-          - title:  CardioGrowth Code
-            icon: fab fa-youtube
-            url: https://www.youtube.com/watch?v=TWJ7lyZjC3U
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          Seducing the heart to repair itself
-        description: | # this will include new lines to allow paragraphs
-          Over 300,000 heart valve replacement surgeries are performed worldwide each year. Current treatments are proven game-changers for adults, 
-          yet children with born heart valve defects have limited options. Tissue engineering has the potential to create living heart valve replacements
-          that last for a lifetime, and grow with the (young) patients. In order to create these game-changing prosthetic devices, we first need to understand
-          the functioning of the native valves that are to be replaced.
-          In this project, I studied the changes in human heart valve structure and mechanics throughout their lifetime, 
-          and unraveled how these drive growth and remodeling. Next, we developed a bioreactor setup to test of we can establish similar growth and remodeling
-          pathways in tissue-engineered valves.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: University Virginia
-        # link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Postdoctoral Fellow
-        caption: May 2018 - Present
-        # quote: >
-          # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            I work in the departments of Biomedical Engineering and Cardiovascular Medicine, where I lead a multidisciplinary team of engineers and clinicians to
-            improve the outcome of cardiac resynchronization therapy. Besides my research responsibilities, I am priviliged to mentor several talented 
-            undergraduate and graduate students, am a co-instructor of a biomechanics class, and am a founding board member of the Postdoctoral Association.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Eindhoven University of Technology
-        caption: 2008 - 2018
-        sub_title: BSc + MSc + PhD in Biomedical Engineering
-        quote: >
-          Mens agitat molem (The mind brings matter into motion)
-        description: | # this will include new lines to allow paragraphs
-          I obtained my degrees in biomedical engineering at the Eindhoven University of Technology, in the Netherlands.
-          During my MSc and PhD degrees, I specialized in experimental and computational cardiovascular biomechanics and tissue engineering, resulting in 6 journal publications and a thesis  titled 'Growth and remodeling of native and engineered cardiovascular tissues'.
-
-          As part of my training, I gained valuable educational and research experience at universities across the world:
-          - **Stanford University** / Department of Mechanical Engineering (Visiting student researcher, 2016)
-          - **University of Texas at Austin** / Center for Cardiovascular Modeling & Simulation (Graduate research assistant, 2012)
-          - **Queen Mary, University of London** / Biomedical Engineering (Erasmus Scholar, 2010)
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my professional interests, you can find me:
-      - Riding my bike(s)
-      - Bikepacking
-      - Listing/playing music
-      - Making pasta
-      - Playing board games
-      - Hanging out with my cats
-
-      ![Playing music is fun](images/collage.jpg)
-
-# Footer
-footer_show_references: false
-# references_title: References on request (Override references text)
+# Liquid
+liquid:
+  error_mode: strict
 
 # Build settings
-remote_theme: sproogen/resume-theme
+permalink: /:categories/:title/
+markdown: kramdown
+feed:
+  path: atom.xml
 
-sass:
-  sass_dir: _sass
-  style: compressed
+# Pagination - https://jekyllrb.com/docs/pagination/
+# paginate: 10
+# paginate_path: /page:num/
+
+# Search
+search_full_content: false # can have performance implications for large sites
+
+# Taxonomy pages
+# category_archive_path: "/categories/#"
+# tag_archive_path: "/tags/#"
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+# Front Matter Defaults
+defaults:
+  # Posts defaults
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: post
+      share: true
+
+# Site Author
+author:
+  name:
+  picture:
+  email:
+  twitter:
+  links:
+    - title:
+      url:
+      icon:
+
+# Footer Links
+footer_links:
+  - title: Feed
+    url: atom.xml
+    icon: fas fa-rss-square
