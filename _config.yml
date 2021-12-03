@@ -1,16 +1,89 @@
-# Site settings
-title: Mauricio Urraco
-description: Jekyll Theme Minimal Resume
-baseurl: "/pimoomen.github.io" # the subpath of your site, e.g. /blog
-url: "https://pimoomen.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+# Your name and what you do
+name: Eve Adam
+bio: Software Developer
 
-# User settings
-username: Mauricio Urraco
-user_description: I'm a Software Engineer from Argentina, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in world of Giving Circles working with Grapevine, a California based startup trying to improve the world through collaborative giving. I'm the first engineer they hired to work on the platform.
-user_title: Software Engineer
-email: mauriurraco@gmail.com
-# twitter_username: lorem_ipsum
-# github_username:  lorem_ipsum
-# gplus_username:  lorem_ipsum
+description: Eve Adam's Personal Website
 
-exclude: ['package.json', 'src' , 'node_modules']
+# Profile picture
+picture: assets/images/profile.jpg
+
+# your url: http://USERNAME.github.io
+url: https://pimoomen.github.io/
+
+# do you want to display social media links? true or false
+social-media: true
+# Add your username for the social media websites listed below
+# If you don't have an account on any of them, comment out the line
+# facebook: myfacebook
+twitter: mytwitter
+linkedin: mylinkedin
+github: mygithub
+email: myemail@gmail.com
+# google: mygoogle
+# instagram: myinstagram
+# pinterest: mypinterest
+# youtube: myyoutube
+# spotify: myspotify
+# lastfm: mylastfm
+# stackoverflow: 7044681/mystackoverflow
+# quora: userquora
+# reddit: username
+# medium: medium
+# vimeo: myvimeo
+# lanyrd: mylanyrd
+
+# do you want a larger site? change the option below
+# options: [normal, large] | default: normal
+# normal = 560px / large = 810px
+width: normal
+
+# do you want to display an about section? true or false
+about: true
+
+# do you want to display a skills section? true or false
+skills: true
+
+# add your skills here
+skills-list:
+    - HTML, Jade
+    - CSS (Stylus, Sass, Less)
+    - Javascript, NodeJS
+    - AngularJS, ReactJS
+    - Java, Android
+    - Python
+    - MySQL - MongoDB    
+    - Git    
+
+# do you want to display a projects section? true or false
+projects: true
+
+# add your projects here
+project-list:
+    Eve:
+        name: Eve
+        description: Ultra Minimal Single-page Jekyll Template for Building Personal Portfolio Websites
+        url: https://github.com/jibolash/Eve
+    World-Cup-History:
+        name: World Cup  History
+        description: npm package for FIFA World cup historical data
+        url: https://github.com/jibolash/world-cup-history
+    Tweeter:
+        name: Tweeter
+        description: A Twitter inspired web application built with Angular 5
+        url: https://tweetermum.herokuapp.com
+    Transcend:
+        name: Transcend
+        description: An android app for meditation and mindfulness
+        url: https://github.com/Khosbayar/Transcend
+
+
+# do you want to display the theme attribution? true or false
+footer: true
+
+# Enable animations? true or false
+animation: true
+
+gems:
+  - jekyll-seo-tag
+
+exclude: [README.md, Gemfile, Gemfile.lock, _site, Rakefile, travis.sh, vendor]
