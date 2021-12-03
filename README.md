@@ -1,41 +1,93 @@
-# Eve Jekyll Theme - <a href="http://jibolash.github.io/Eve/">Demo</a>
+# Jekyll Resume Theme
 
-<a href="https://travis-ci.org/jibolash/Eve"><img src="https://travis-ci.org/jibolash/Eve.svg?branch=gh-pages" alt="Build Status" /></a>
+Live demo at https://jekyll-theme-minimal-resume.netlify.com/
 
-Eve is an ultra minimal Jekyll theme for building single page personal portfolio websites
+[![Netlify Status](https://api.netlify.com/api/v1/badges/24d80ae8-c3d9-4645-a6d8-9e97fc8dec3c/deploy-status)](https://app.netlify.com/sites/jekyll-theme-minimal-resume/deploys)
+
+# Stack
+
+![](https://img.shields.io/badge/jekyll-✓-blue.svg)
+![](https://img.shields.io/badge/html5-✓-blue.svg)
+![](https://img.shields.io/badge/sass-✓-blue.svg)
+![](https://img.shields.io/badge/sweet--scroll-✓-blue.svg)
+![](https://img.shields.io/badge/particle--js-✓-blue.svg)
+![](https://img.shields.io/badge/font--awesome-✓-blue.svg)
+![](https://img.shields.io/badge/devicon-✓-blue.svg)
+![](https://img.shields.io/badge/gulp-✓-blue.svg)
+
+***
+
+<h3 align="center">Please help this repo with a :star: if you find it useful! :blush:</h3>
+
+***
+
+# Screenshot
 
 <p align="center">
-    <img src="https://preview.ibb.co/ditr6J/Screen_Shot_2018_05_14_at_6_27_06_PM.png" />
+  <img src="https://github.com/murraco/jekyll-theme-minimal-resume/blob/master/screenshot.png" width="90%" />
 </p>
 
-## Deploying to Github Pages
+# Quick Setup
 
-- Fork or Clone this repo
-- Rename the repo to your desired github pages url (E.g yourname.github.io)
-- Customize `_config.yml` as desired
-- Push code to a `gh-pages` branch
-- Visit your website at the github pages url you specified in the second step
+1. Install Jekyll: `gem install jekyll bundler`
+2. Fork this repository and clone your fork
+3. Edit `_config.yml` to personalize your site
 
-Learn more about Github pages <a href="https://pages.github.com/">here</a>
+# Settings
 
-## Usage
+You have to fill some informations on `_config.yml` to customize your site:
 
-- Update `_config.yml` with your desired settings
-- Update `_includes/about.html` with information about yourself
+## Site settings
+```yml
+description: A blog about lorem ipsum dolor sit amet
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://localhost:3000" # the base hostname & protocol for your site
+```
 
-## Local Setup
+## User settings
+```yml
+username: Lorem Ipsum
+user_description: Software Engineer at Lorem Ipsum Dolor
+user_title: Mauricio Urraco
+email: mauriurraco@gmail.com
+```
 
-- Install <a href="https://www.ruby-lang.org/en/">Ruby</a>, <a href="https://bundler.io/">Bundler</a>, <a href="https://jekyllrb.com/">Jekyll</a>, and <a href="https://nodejs.org/en/">NodeJS</a> `NodeJS`.
-- Run `bundle install` from repo's root
-- Run `bundle exec jekyll serve --config _config.yml,_config-dev.yml` to start the local server
-- Vist website in your browser at `http://localhost:4000`
-- Run link, image and script checks on the website with `bundle exec htmlproofer ./_site --only-4xx`
+> Don't forget to change your URL before you deploy your site!
 
-## Credits
+# Color and Particle Customization
 
-- Inspired by <a href="https://github.com/sergiokopplin/indigo">indigo</a>
-- Demo profile photo by <a href="https://www.pexels.com/photo/woman-wearing-eyeglasses-773371/">Tarzine Jackson</a>
+- Color Customization
+  - Edit the `.sass` variables
+- Particle Customization
+  - Edit the json data in particle function in `app.js`
+  - Refer to `Particle.js` for help
 
-## License
+# Content
 
-MIT
+You can (and should) edit the `.html` files for adding your own information, icons, working experience, social links or whatever you want to add. I.e.:
+
+```html
+<a aria-label="My Github" target="_blank" href="https://github.com/murraco">
+  <i class="icon fa fa-github-alt" aria-hidden="true"></i>
+</a>
+```
+
+# Running locally
+
+In order to compile the assets and run `Jekyll` locally you need to follow those steps:
+
+1. Install Jekyll
+2. Run `bundle install`
+3. Run `bundle exec jekyll build`
+4. Start and http-server in the folder `_site`
+
+# Contribution
+
+- Report issues
+- Open pull request with improvements
+- Spread the word
+- Reach out to me directly at <mauriurraco@gmail.com>
+
+# Credits
+
+- [Nathan Randecker](https://github.com/nrandecker)
