@@ -2,15 +2,16 @@
 title: BEAT Lab
 description: BEAT Lab Website
 # baseurl: "" # the subpath of your site, e.g. /blog
+# baseurl: "/Users/pimoomen/Projects/pimoomen.github.io/_site/"
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: BEAT Lab
 user_description: The heart beats a staggering 2 billion times during an average human life. With every beat, the heart supplies our body with oxygenated blood and nutrients. However, this essential function can be cut short by cardiovascular disease.
-user_title: Biomechanics, Electrophysiology, And Therapies for the heart.
+user_title: Biomechanics, Electrophysiology, And Therapies
 email: p.j.a.oomen@gmail.com
 # twitter_username: lorem_ipsum
 # github_username:  lorem_ipsum
 # gplus_username:  lorem_ipsum
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules', 'vendor']
